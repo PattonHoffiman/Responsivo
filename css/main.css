@@ -25,6 +25,11 @@ h1, h2, h3, h4, h5, h6 {
 .button:hover {
     background: #37a0a0;
 }
+.clearfix:after {
+    clear: both;
+    content: ' ';
+    display: block;
+}
 
 .top-nav {
     text-align: center;
@@ -122,4 +127,37 @@ h1, h2, h3, h4, h5, h6 {
 .footer-menushare li {
     margin: 0 1em;
     display: inline-block;
+}
+
+@media screen and (min-width: 48.75em) {
+    .top-nav {
+        float: right;
+        margin-top: 1.8em;
+        background: transparent;
+    }
+    .top-nav a {
+        color: #713a84;
+    }
+    .top-nav ul {
+        margin: 0;
+        padding: 0;
+    }
+    .top-nav li {
+        display: inline-block;
+    }
+    .top-nav a:hover {
+        background: #e7d9fc;
+    }
+    
+    .top-header-logo {
+        float: left;
+    }
+    
+    .top-content {
+        background: #521a66;
+    }
+    .top-content-title,
+    .top-content-subtitle {
+        color: white;
+    }
 }
