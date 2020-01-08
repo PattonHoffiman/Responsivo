@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 .button:hover {
     background: #37a0a0;
 }
-.clearfix:after {
+.clearfix:after, .row:after {
     clear: both;
     content: ' ';
     display: block;
@@ -130,6 +130,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (min-width: 48.75em) {
+    .col-1-4 {
+        width: 44%;
+        margin: 3%;
+        float: left;
+    }
+    
     .top-nav {
         float: right;
         margin-top: 1.8em;
@@ -159,5 +165,9 @@ h1, h2, h3, h4, h5, h6 {
     .top-content-title,
     .top-content-subtitle {
         color: white;
+    }
+    
+    .main-content-article .button {
+        float: right;
     }
 }
