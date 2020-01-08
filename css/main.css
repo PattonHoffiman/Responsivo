@@ -7,6 +7,13 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oxygen', arial;
 }
 
+.hidden {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    display: block;
+    overflow: hidden;
+}
 .button {
     color: white;
     background: #58c4c4;
@@ -95,4 +102,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 .main-content-article {
     margin-bottom: 3.5em;
+}
+
+.footer {
+    color: #83969f;
+    text-align: center;
+    background: #25303e;
+    padding-bottom: 2em;
+}
+.footer-menushare {
+    padding: .5em;
+    background: #303d4c;
+}
+.footer-menushare a {
+    color: white;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+.footer-menushare li {
+    margin: 0 1em;
+    display: inline-block;
 }
