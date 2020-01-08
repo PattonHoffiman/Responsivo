@@ -79,3 +79,20 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 3.5em;
     color: #652e78;
 }
+
+.main-content {
+    padding: 2em;
+}
+.main-content p {
+    line-height: 1.2;
+}
+.main-content-title {
+    color: #652e78;
+    font-size: 1.25em;
+    font-weight: normal;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+.main-content-article {
+    margin-bottom: 3.5em;
+}
